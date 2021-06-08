@@ -31,22 +31,22 @@ candidateName = user
  
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
-   
-   
+      
    for (let i = 0; i < questions.length; i++){
-     candidateAnswer = input.question(questions[i])
-            
-       }
-       
+     candidateAnswer = input.question(questions[i]);
+   
+    
      }
-     
-  
+    }
+
 
 function gradeQuiz() {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // Replace the basic feedback from TODO 1.2c with a template literal that displays each of the candidate's responses in addition to the corresponding correct answers.
-     
-       
+
+ console.log(`Your Answer: ${candidateAnswer}
+Correct Answer: ${correctAnswers} `);
+ 
 
   
 
